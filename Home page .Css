@@ -1,4 +1,4 @@
-/* Google Fonts */
+
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 * {
   margin: 0;
@@ -15,12 +15,12 @@
   color: #fff;
 }
 :root {
-  --main-color: #ffb411; /* Bright yellow */
-  --secondary-color: #ff6b6b; /* Soft red */
+  --main-color: #ffb411; 
+  --secondary-color: #ff6b6b; 
   --text-color: #1e1c2a;
-  --bg-color: #f5f5f5; /* Light gray background */
-  --highlight-color: #48dbfb; /* Bright blue */
-  --accent-color: #ff9f43; /* Orange accent */
+  --bg-color: #f5f5f5; 
+  --highlight-color: #48dbfb; 
+  --accent-color: #ff9f43; 
 
   --big-font: 4rem;
   --h2-font: 2.24rem;
@@ -36,46 +36,46 @@ body.active {
 body {
   color: var(--text-color);
   background: var(--bg-color);
-  transition: background-color 0.3s ease; /* Smooth background transition */
+  transition: background-color 0.3s ease; 
 }
 #darkmode {
   font-size: 25px;
   cursor: pointer;
 }
 header {
-    display: flex; /* Use flexbox for alignment */
-    align-items: center; /* Center items vertically */
-    justify-content: space-between; /* Space out logo and navbar */
-    padding: 10px 20px; /* Add padding for spacing */
-    background-color: #f8f9fa; /* Optional: Set a background color */
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    padding: 10px 20px; 
+    background-color: #f8f9fa; 
 }
 
 .logo {
-    display: flex; /* Use flexbox for logo and text */
-    align-items: center; /* Center items vertically */
-    text-decoration: none; /* Remove underline from link */
-    color: #333; /* Set text color */
+    display: flex; 
+    align-items: center; 
+    text-decoration: none; 
+    color: #333; 
 }
 
 .logo-img {
-    width: auto; /* Adjust the logo size */
-    height: 150px; /* Maintain aspect ratio */
+    width: auto; 
+    height: 150px; 
 }
 
 .logo-text {
-    margin-left: 10px; /* Space between logo and text */
-    font-size: 52px; /* Adjust font size here */
-    color: #5da2cc; /* Set text color */
-    font-weight: bold; /* Make text bold */
+    margin-left: 10px; 
+    font-size: 52px; 
+    color: #5da2cc; 
+    font-weight: bold; 
 }
 
 .navbar {
-    list-style: none; /* Remove bullet points */
-    display: flex; /* Use flexbox for horizontal layout */
+    list-style: none; 
+    display: flex; 
 }
 
 .navbar li {
-    margin: 0 15px; /* Space between menu items */
+    margin: 0 15px; 
 }
 
 .navbar a {
@@ -106,14 +106,13 @@ header {
   position: relative;
 }
 
-/* Adding a lock icon with pseudo-element */
+
 .login-button::before {
   content: "👨‍💻";
   font-size: 16px;
   margin-right: 8px;
 }
 
-/* Hover effect */
 .login-button:hover {
   background-color: #45a049;
 }
@@ -137,15 +136,14 @@ header {
 }
 .home-img img {
   width: 100%;
-  border-radius: 10px; /* Rounded corners */
-}
+  border-radius: 10px; 
 .home-text h1 {
   font-size: var(--big-font);
   color: var(--main-color);
-  transition: transform 0.3s ease; /* Add hover effect */
+  transition: transform 0.3s ease; 
 }
 .home-text h1:hover {
-  transform: scale(1.05); /* Scale effect on hover */
+  transform: scale(1.05); 
 }
 .home-text h2 {
   font-size: var(--h2-font);
@@ -158,11 +156,11 @@ header {
   padding: 10px 20px;
   border-radius: 0.5rem;
   color: #fff;
-  transition: background 0.3s, transform 0.3s; /* Smooth background and scale transition */
+  transition: background 0.3s, transform 0.3s; 
 }
 .btn:hover {
   background: var(--accent-color);
-  transform: scale(1.05); /* Scale effect on hover */
+  transform: scale(1.05); 
 }
 .about {
   display: grid;
@@ -215,8 +213,8 @@ header {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 .box:hover {
-  transform: translateY(-5px); /* Lift effect on hover */
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Deeper shadow on hover */
+  transform: translateY(-5px); 
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); 
 }
 .box-img {
   width: 200px;
@@ -227,10 +225,10 @@ header {
   height: 100%;
   object-fit: contain;
   object-position: center;
-  transition: transform 0.3s ease; /* Smooth image transition */
+  transition: transform 0.3s ease;
 }
 .box-img:hover img {
-  transform: scale(1.1); /* Scale image on hover */
+  transform: scale(1.1); 
 }
 .box h2 {
   font-size: 1.2rem;
@@ -254,10 +252,10 @@ header {
   background: var(--main-color);
   border-radius: 0 0.5rem 0 0.5rem;
   padding: 5px 8px;
-  transition: background 0.3s; /* Smooth transition for background */
+  transition: background 0.3s; 
 }
 .box .bx:hover {
-  background: var(--highlight-color); /* Change on hover */
+  background: var(--highlight-color); 
 }
 
 /* Section Styling */
@@ -282,7 +280,7 @@ header {
   margin-top: 10px;
 }
 
-/* Service Boxes */
+
 .servives-container {
   display: flex;
   justify-content: center;
@@ -303,8 +301,8 @@ header {
   text-align: center;
   cursor: pointer;
   opacity: 0;
-  transform: translateY(20px); /* Start slightly below */
-  animation: fadeInUp 0.6s forwards; /* Fade-in effect */
+  transform: translateY(20px); 
+  animation: fadeInUp 0.6s forwards; 
 }
 
 .s-box:hover {
@@ -312,7 +310,6 @@ header {
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 }
 
-/* Service Box Image */
 .s-box img {
   width: 100%;
   height: auto;
@@ -322,10 +319,9 @@ header {
 
 .s-box:hover img {
   transform: scale(1.1);
-  filter: brightness(90%); /* Darken image on hover */
+  filter: brightness(90%); 
 }
 
-/* Title and Description */
 .s-box h3 {
   font-size: 1.3em;
   color: var(--text-color);
@@ -338,7 +334,7 @@ header {
   line-height: 1.6;
 }
 
-/* Keyframes for the fade-in animation */
+
 @keyframes fadeInUp {
   0% {
     opacity: 0;
@@ -351,7 +347,6 @@ header {
 }
 
   
-  /* Fade-in effect for the section */
   @keyframes fadeIn {
     from {
       opacity: 0;
@@ -361,12 +356,11 @@ header {
     }
   }
   
-  /* Styling for Connect Section */
   .connect {
     background-color: #333;
     padding: 40px 20px;
     text-align: center;
-    animation: fadeIn 1s ease-in-out; /* Fade-in effect for the connect section */
+    animation: fadeIn 1s ease-in-out; 
   }
   
   .connect-text span {
@@ -381,7 +375,6 @@ header {
     margin: 10px 0;
   }
   
-  /* Button Styling */
   .connect .btn {
     display: inline-block;
     padding: 12px 25px;
@@ -391,12 +384,12 @@ header {
     text-decoration: none;
     font-size: 1em;
     font-weight: bold;
-    transition: background-color 0.3s ease, transform 0.2s ease; /* Added transform transition */
+    transition: background-color 0.3s ease, transform 0.2s ease; 
   }
   
   .connect .btn:hover {
     background-color: #ff7f50;
-    transform: scale(1.05); /* Scale button on hover */
+    transform: scale(1.05); 
   }
   
 .connect {
@@ -527,7 +520,6 @@ header {
     padding-top: 4rem;
   }
 }
-/* Styling for the main container box */
 .box-img1 {
     position: relative;
     width: 300px;
@@ -539,13 +531,11 @@ header {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
   }
   
-  /* Adding hover effects */
   .box-img1:hover {
     transform: translateY(-5px);
     box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3);
   }
   
-  /* Styling for the image inside the box */
   .box-img1 img {
     width: 100%;
     height: auto;
@@ -557,26 +547,22 @@ header {
     transform: scale(1.05);
   }
   
-  /* Styling for the title and price */
   h2, span {
     margin: 10px 0;
     font-family: Arial, sans-serif;
     color: #333;
   }
   
-  /* Styling the title */
   h2 {
     font-size: 1.4em;
     font-weight: bold;
   }
   
-  /* Styling the price */
   span {
     font-size: 1.2em;
     color: #d9534f;
   }
   
-  /* Styling the cart icon */
   i.bx-cart-alt {
     font-size: 1.5em;
     color: #d9534f;
@@ -587,7 +573,7 @@ header {
   i.bx-cart-alt:hover {
     color: #ff7f50;
   }
-  /* Styling for the main box container */
+ 
 .box {
     width: 300px;
     padding: 20px;
@@ -598,14 +584,12 @@ header {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     font-family: Arial, sans-serif;
   }
-  
-  /* Adding hover effects for the main box */
+ 
   .box:hover {
     transform: translateY(-5px);
     box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3);
   }
   
-  /* Styling for the image container */
   .box-img {
     overflow: hidden;
     border-radius: 10px;
@@ -621,7 +605,7 @@ header {
     transform: scale(1.05);
   }
   
-  /* Styling for the title */
+ 
   h2 {
     font-size: 1.4em;
     color: #333;
@@ -629,14 +613,12 @@ header {
     margin: 10px 0 5px;
   }
   
-  /* Styling for the subtitle */
   h3 {
     font-size: 1em;
     color: #666;
     margin: 0 0 10px;
   }
   
-  /* Styling for the price */
   span {
     font-size: 1.2em;
     color: #d9534f;
@@ -644,7 +626,6 @@ header {
     margin-bottom: 15px;
   }
   
-  /* Styling the cart icon */
   i.bx-cart-alt {
     font-size: 1.5em;
     color: #d9534f;
@@ -659,48 +640,48 @@ header {
     margin-top: 10px; 
     background-color: var(--highlight-color); 
     color: #fff; 
-    border: none; /* Remove default border */
-    border-radius: 5px; /* Rounded corners */
-    padding: 10px 15px; /* Padding for the button */
-    font-size: 1rem; /* Font size */
-    cursor: pointer; /* Pointer cursor on hover */
-    transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions */
-    position: relative; /* For positioning the pseudo-element */
-    overflow: hidden; /* Hide overflow for the pseudo-element */
+    border: none; 
+    border-radius: 5px; 
+    padding: 10px 15px; 
+    font-size: 1rem; 
+    cursor: pointer; 
+    transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease; 
+    position: relative; 
+    overflow: hidden; 
   }
   
   .add-to-cart::before {
-    content: ""; /* Empty content for the pseudo-element */
+    content: ""; 
     position: absolute;
     top: 0;
     left: 50%;
-    width: 300%; /* Wider than the button for the effect */
+    width: 300%; 
     height: 100%;
-    background: rgba(255, 255, 255, 0.2); /* Light overlay */
-    transform: translateX(-50%) translateY(-100%); /* Start position */
-    transition: transform 0.4s ease; /* Transition for the movement */
-    z-index: 0; /* Behind the text */
+    background: rgba(255, 255, 255, 0.2); 
+    transform: translateX(-50%) translateY(-100%); 
+    transition: transform 0.4s ease; 
+    z-index: 0; 
   }
   
   .add-to-cart:hover::before {
-    transform: translateX(-50%) translateY(0); /* Move to cover the button */
+    transform: translateX(-50%) translateY(0); 
   }
   
   .add-to-cart:hover {
-    background-color: var(--main-color); /* Change background color on hover */
-    transform: scale(1.05); /* Scale effect on hover */
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); /* Add shadow on hover */
-    color: #fff; /* Ensure text remains white */
+    background-color: var(--main-color); 
+    transform: scale(1.05); 
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); 
+    color: #fff; 
   }
   
   .add-to-cart span {
-    position: relative; /* Positioning for the text */
-    z-index: 1; /* Bring text above the pseudo-element */
-    transition: color 0.3s ease; /* Transition for the text color */
+    position: relative; 
+    z-index: 1; 
+    transition: color 0.3s ease; 
   }
   
   .add-to-cart:hover span {
-    color: #fff; /* Text color on hover */
+    color: #fff; 
   }
 
 .contact-form-container {
